@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Descripción de la función main
- * 
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
