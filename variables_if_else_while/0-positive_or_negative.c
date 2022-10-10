@@ -18,7 +18,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf(%n "is zero");
+		printf(&n "is zero");
 	}
 	else
 	{
