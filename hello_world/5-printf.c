@@ -1,9 +1,14 @@
 #include <stdio.h>
 /**
- * my_function - This is a description
+ * main - This is a description
+ *
+ *Description: Longer description of the function
  */
-int main(void) /*Descripción*/
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
+/**
+ * Return: must return 0
+ */
 return (0);
 }
