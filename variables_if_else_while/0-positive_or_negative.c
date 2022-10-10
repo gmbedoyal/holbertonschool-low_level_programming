@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - descripción
+ * main - descripción (success)
  * return - 0 if 0, <0 if negative, >0 if positive
  **/
 
@@ -11,6 +11,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
+	
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
 	{
