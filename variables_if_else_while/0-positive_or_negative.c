@@ -3,7 +3,7 @@
 /**
  * main - descripción
  * return - 0 if 0, <0 if negative, >0 if positive
- **/i
+ **/
 int main(void)
 {
 	int n;
