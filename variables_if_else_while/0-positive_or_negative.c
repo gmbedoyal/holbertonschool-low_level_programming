@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - descripción
  * return - 0 if 0, <0 if negative, >0 if positive
