@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - descripción (success)
+ * main: descripción (0)
  * return - 0 if 0, <0 if negative, >0 if positive
  **/
 
