@@ -15,6 +15,6 @@ int main(void)
 	while (alphabet <= 'z')
 		printf ("%c", alphabet++);
 	}
-	
+	printf ("\n");
 return (0);
 }
