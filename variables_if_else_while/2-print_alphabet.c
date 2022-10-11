@@ -13,8 +13,8 @@ int main(void)
 	char alphabet = 'a';
 	{
 	while (alphabet <= 'z')
-		printf ("%c", alphabet++);
+		printf("%c", alphabet++);
 	}
-	printf ("\n");
+	printf("\n");
 return (0);
 }
