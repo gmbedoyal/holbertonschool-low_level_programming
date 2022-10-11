@@ -13,7 +13,7 @@ int main(void)
 	int n = 0;
 	char l = 'a';
 	{
-	while (n <= 15)
+	while (n <= 9)
 		printf("%d", n++);
 	while (l <= 'f')
 		printf("%c", l++);
