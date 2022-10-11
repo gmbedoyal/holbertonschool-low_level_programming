@@ -8,12 +8,13 @@
  */
 
 
-int main(void);
+int main(void)
 {
 	char alphabet = 'a';
 	{
-	while (alphabet < z)
-		printf (%d, alphabet++);
+	while (alphabet <= 'z')
+		printf ("%c", alphabet++);
+		printf ("\n");
 	}
 	
 return (0);
