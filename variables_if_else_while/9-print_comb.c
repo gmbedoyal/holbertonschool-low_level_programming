@@ -16,11 +16,11 @@ int main(void)
 		{
 			putchar (i);
 			putchar(',');
-			putchar(' ');
 		}
 	for (i = '9'; i <= '9'; i++)
 		{
 		putchar (i);
 		}
+	putchar ('\n');
 return (0);
 }
