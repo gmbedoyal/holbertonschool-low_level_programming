@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - check the code
@@ -8,8 +9,8 @@
  */
 
 int main (void)
-	{
-		printf("_putchar\n");
-
-return (0);
-	}
+{	
+	char c='a';
+	_putchar(c);
+	return (write(1, &c, 1));
+}
