@@ -1,5 +1,3 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -13,7 +11,7 @@ int main (void)
 	char a = 'a';
 	while (a <= 'z')
 		{
-		putchar(a);
+		print_alphabet('a');
 		a++;
 		}
 	return (0);
