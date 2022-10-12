@@ -1,12 +1,22 @@
+#include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int main(void)
+ 
+void print_alphabet (void)
 {
-    print_alphabet();
-    return (0);
+	char x = 'a';
+
+	while (x <= 'z')
+	{
+		_putchar(a);
+		x++;
+	}
+	_putchar('\n');
+return (0);
 }
