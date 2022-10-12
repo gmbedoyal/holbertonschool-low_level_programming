@@ -10,7 +10,6 @@
 
 int main (void)
 {	
-	char w;
 	for (char w = *_putchar ; w != '\0'; w = *++_putchar)
 	{
 		putchar(w);
