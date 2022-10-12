@@ -12,5 +12,5 @@ int main (void)
 {	
 	char c='a';
 	_putchar(c);
-	return (write(1, &c, 1));
+	return (0);
 }
