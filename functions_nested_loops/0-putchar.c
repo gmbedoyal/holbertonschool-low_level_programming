@@ -10,7 +10,12 @@
 
 int main (void)
 {	
-	char c;
-	_putchar(c);
-	return (0);
+	char *w = "_putchar";
+	while (*w)
+	{
+		w**
+		_putchar(*w);
+	}
+	_putchar(\'n');
+return (0);
 }
