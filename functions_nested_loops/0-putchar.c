@@ -8,9 +8,10 @@
  * Return: Always 0.
  */
 
-int main (void)
-{	
+int main(void)
+{
 	char *w = "_putchar";
+
 	while (*w)
 	{
 		_putchar(*w);
