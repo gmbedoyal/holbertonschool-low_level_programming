@@ -1,5 +1,6 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - check the code
@@ -7,13 +8,15 @@
  * Return: Always 0.
  */
 
-int print_alphabet(void)
+int main(void)
 {
-	char a = 'a';
-	while (a <= 'z')
-		{
-		_putchar('a');
-		a++;
-		}
-	return (0);
+	char *w = "abcdefghijklmnopqrstuvwxyz";
+
+	while (*w)
+	{
+		_putchar(*w);
+		w++;
+	}
+	_putchar('\n');
+return (0);
 }
