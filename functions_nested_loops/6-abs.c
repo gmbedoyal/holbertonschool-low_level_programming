@@ -10,13 +10,13 @@
  * Return: 0 always.
  */
 
-int _abs(int i)
+int _abs(int)
 {
-	int j = abs(i);
+	_abs = abs(_abs) 
 
-	if (j > 0)
+	if (_abs > 0)
 	{	
-	_putchar(j);
+	_putchar(_abs);
 	}
 	else
 	return (0);
