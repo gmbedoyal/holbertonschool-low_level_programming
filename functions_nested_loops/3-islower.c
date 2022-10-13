@@ -11,14 +11,15 @@
 int _islower(int c);
 {
 	int c;
+	int d = islower (c);
 
-	if (islower(c) = 0) /*si la letra es mayúscula*/
+	if (d !== 0) /*si la letra es minúscula*/
 	{
-		return (0);
-	}
-	else return (1);
-}
 
-		
+		return (1);
+	}
+	else 
+		return (0);
+}
 
 
