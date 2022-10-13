@@ -3,9 +3,11 @@
 #include <ctype.h>
 
 /**
- * islower - check the code
- * c - letra a evaluar
- * Return: 0 if uppercase, 1 if lowercase.
+ *_islower - check the code
+ *
+ * @c - letra a evaluar
+ * Description - evaluar si letra c es lowercase
+ *Return: 0 if uppercase, 1 if lowercase.
  */
 
 int _islower(int c)
