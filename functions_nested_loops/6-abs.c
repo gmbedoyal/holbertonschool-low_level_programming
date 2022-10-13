@@ -12,8 +12,12 @@
 
 int _abs(int i)
 {
-	int j = abs (i);
-	_putchar (j);
+	int j;
 
+	if (abs(i) > 0)
+	{	
+	_putchar(j);
+	}
+	else
 	return (0);
 }
