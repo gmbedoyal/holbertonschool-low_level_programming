@@ -3,9 +3,9 @@
 #include <ctype.h>
 
 /**
- *_isalpha - check the code
+ *print_sign - check the code
  *
- * @c: letra a evaluar
+ * @n: número a evaluar
  * Description - evaluate if alphabetic
  * Return: 1 if alphabetic, 0 if not.
  */
@@ -18,7 +18,7 @@ int print_sign(int n)
 		_putchar(43);
 		return (1);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		_putchar(0);
 		return (0);
@@ -27,5 +27,5 @@ int print_sign(int n)
 	{
 		_putchar (45);
 		return (-1);
-	}	
+	}
 }
