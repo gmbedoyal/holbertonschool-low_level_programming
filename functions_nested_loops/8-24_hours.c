@@ -4,9 +4,8 @@
 #include <ctype.h>
 
 /**
- * print_last_digit - check the code
+ * jack_bauer - check the code
  *
- * @i: número a evaluar
  * Description - print last digit of a number
  * Return: last digit.
  */
@@ -15,7 +14,7 @@ void jack_bauer(void)
 {
 	int i;
 	int j;
-	
+
 	for (i = 0; i < 24; i++)
 	{
 		for (j = 0; j < 60; j++)
