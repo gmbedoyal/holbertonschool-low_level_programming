@@ -15,7 +15,7 @@ int _abs(int i)
 {
 	int j = abs(int i);
 
-	if (j > 0)
+	if (j >= 0)
 	{	
 	printf("%d\n", j);
 	}
