@@ -15,7 +15,7 @@ int print_last_digit(int i)
 {
 	int j = (i % 10);
 	int k = (j * (-1));
-	
+
 	if (j >= 0)
 	{
 		_putchar(48 + j);
@@ -25,6 +25,6 @@ int print_last_digit(int i)
 	{
 		_putchar(48 + k);
 		return (k);
-	
+
 	}
-}	
+}
