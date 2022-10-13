@@ -10,9 +10,9 @@
  * Return: 0 always.
  */
 
-int _abs(int)
+int _abs(int i)
 {
-	_abs = abs(_abs) 
+	_abs = abs(i); 
 
 	if (_abs > 0)
 	{	
