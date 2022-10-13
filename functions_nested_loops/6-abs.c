@@ -13,7 +13,7 @@
 
 int _abs(int i)
 {
-	int j = abs (i); 
+	int j = abs(i);
 
 	if (j > 0)
 	{	
