@@ -14,9 +14,9 @@ void int_islower(int c);
 
 	if (islower(c) = 0) /*si la letra es mayúscula*/
 	{
-		return 0;
+		return (0);
 	}
-	else return 1;
+	else return (1);
 }
 
 		
