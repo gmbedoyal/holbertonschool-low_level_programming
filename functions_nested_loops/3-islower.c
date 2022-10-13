@@ -15,10 +15,10 @@ int _islower(int c)
 	if (d == 0) /*si la letra es minúscula*/
 	{
 
-		return (1);
+		return (0);
 	}
 	else 
-		return (0);
+		return (1);
 }
 
 
