@@ -10,7 +10,6 @@
 
 int _islower(int c)
 {
-	int c;
 	int d = islower (c);
 
 	if (d !== 0) /*si la letra es minúscula*/
