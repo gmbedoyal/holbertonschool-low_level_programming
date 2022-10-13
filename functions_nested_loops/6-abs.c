@@ -19,5 +19,5 @@ int _abs(int i)
 	{	
 	printf("%d\n", j);
 	}
-return(j);
+return(void);
 }
