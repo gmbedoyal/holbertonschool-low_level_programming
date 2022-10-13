@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 /**
- *_isabs - check the code
+ *_abs - check the code
  *
  * @i: número a evaluar
  * Description - evaluate if alphabetic
