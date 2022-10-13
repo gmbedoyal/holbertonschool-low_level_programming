@@ -12,11 +12,11 @@
 
 int _abs(int i)
 {
-	_abs = abs(i); 
+	int j = abs (i); 
 
-	if (_abs > 0)
+	if (j > 0)
 	{	
-	_putchar(_abs);
+	printf("%d\n", j);
 	}
 	else
 	return (0);
