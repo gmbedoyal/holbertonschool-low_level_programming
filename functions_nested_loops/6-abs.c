@@ -12,8 +12,8 @@
 
 int _abs(int i)
 {
-	int i = abs (i);
-	-putchar (i);
+	int j = abs (i);
+	-putchar (j);
 
 	return (0);
 }
