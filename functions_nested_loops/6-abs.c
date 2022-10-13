@@ -12,9 +12,9 @@
 
 int _abs(int i)
 {
-	int j;
+	int j = abs(i);
 
-	if (abs(i) > 0)
+	if (j > 0)
 	{	
 	_putchar(j);
 	}
