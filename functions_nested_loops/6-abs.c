@@ -17,7 +17,6 @@ int _abs(int i)
 
 	if (j >= 0)
 	{	
-	printf("%d\n", j);
+	return(0);
 	}
-return();
 }
