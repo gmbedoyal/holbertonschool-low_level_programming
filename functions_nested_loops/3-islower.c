@@ -10,7 +10,6 @@
 
 int _islower(int c);
 {
-	int c;
 
 	if (islower(c) = 0) /*si la letra es mayúscula*/
 	{
