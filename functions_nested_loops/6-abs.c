@@ -13,12 +13,14 @@
 
 int _abs(int i)
 {
-	int j = abs(int i);
+	int j = abs(i);
 
 	if (j >= 0)
 	{	
 	printf("%d\n", j);
 	}
 	else
+	{
+	}
 	return (0);
 }
