@@ -8,7 +8,7 @@
  * Return: 0 if uppercase, 1 if lowercase.
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	int c;
 	int d = islower (c);
