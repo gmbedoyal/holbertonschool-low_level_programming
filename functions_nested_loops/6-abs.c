@@ -16,9 +16,9 @@ int _abs(int i)
 	int j = abs(i);
 
 	if (j >= 0)
-	{	
-	return(j);
+	{
+	return (j);
 	}
 	else
-	return(j);
+	return (j);
 }
