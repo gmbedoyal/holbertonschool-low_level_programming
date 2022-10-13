@@ -14,14 +14,17 @@
 int print_last_digit(int i)
 {
 	int j = (i % 10);
-	int k = (j*(-1));
+	int k = (j * (-1));
+	
 	if (j >= 0)
 	{
-		_putchar(48+j);
+		_putchar(48 + j);
+		return (j);
 	}
 	else
 	{
-		_putchar(48+k);
+		_putchar(48 + k);
+		return (k);
+	
 	}
-return(j);
-}
+}	
