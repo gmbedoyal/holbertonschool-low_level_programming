@@ -3,7 +3,7 @@
 
 /**
  * add - check the code
- * i - valor a
+ * @i - valor a
  * @j - valor b
  * Description - print last digit of a number
  * Return: last digit.
