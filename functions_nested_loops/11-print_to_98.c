@@ -14,21 +14,19 @@
 void print_to_98(int n)
 {
 	int i;
+	int j;
+	int k;
 
-	if (n == 98)
-	{	
-		_putchar(n + '0');
-	}
-	else if (n < 98)
-	{
-		for (i = n; i < 98 ; i++)
+	if (n < 98)
+		while (n < 98)
+			k = 1;
+			j = 98 - k;
+			i = 98 - j;
+			k++;
 			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
-	}
-	else
-		for (i = n; i > 98 ; i--)
-			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
+
+	if (n > 98)
+		while (n >= 98)
+			_putchar('0');
+
 }
