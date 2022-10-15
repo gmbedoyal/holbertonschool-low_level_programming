@@ -12,25 +12,25 @@
 
 void times_table(void)
 {
-    int i;
-    int j;
-   int m; /*primer digito*/
-    int n; /*segundo digito*/
+	int i;
+	int j;
+	int m; /*primer digito*/
+	int n; /*segundo digito*/
 
-    for (i = 0; i <= 9; i++)
-    {
-        for (j = 0; j <= 9; j++)
-	{ 
-	m = (((i*j) / 10));
-        n = (((i*j) % 10));
-        
-            if (i == 0)
-                {
-                    if (j == 0)
-                    {
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 0; j <= 9; j++)
+	{
+	m = (((i * j) / 10));
+        n = (((i * j) % 10));
+
+	if (i == 0)
+	{
+		if (j == 0)
+		{
 			_putchar(n + '0');
-                        _putchar(',');
-                    }
+			_putchar(',');
+		}
                     else
                     {   
                         if (j != 0 && j != 9)
