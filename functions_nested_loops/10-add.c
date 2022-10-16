@@ -3,10 +3,10 @@
 
 /**
  * add - check the code
- * @i - valor a
- * @j - valor b
- * Description i -
- * Descripction j -
+ * @i: valor a
+ * @j: valor b
+ * Description i - Número 1
+ * Descripction j - Número 2
  * Description - print last digit of a number
  * Return: last digit.
  */
