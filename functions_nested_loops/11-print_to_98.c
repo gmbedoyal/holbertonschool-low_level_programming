@@ -13,20 +13,41 @@
 
 void print_to_98(int n)
 {
-	int i;
+	int i = 0;
 	int j;
-	int k;
+	int m;
+	int l;
 
-	if (n < 98)
-		while (n < 98)
-			k = 1;
-			j = 98 - k;
-			i = 98 - j;
-			k++;
-			_putchar(i + '0');
-
-	if (n > 98)
-		while (n >= 98)
-			_putchar('0');
-
+	if (n <= 98)
+	{
+		while (i < (99 - n))
+		{	
+			j = (n + i);
+			m = (((j) / 10));
+			l = (((j) % 10));
+			if (m > 0)
+			{
+			_putchar(m + '0');}
+			_putchar(l + '0');
+			if (j != 98) {
+			_putchar(','),
+			_putchar(' ');}
+			i++;
+		}
+	}
+	else
+	{
+		while (i < (n - 97))
+		{	
+			j = (n - i);
+			m = (((j) / 10));
+			l = (((j) % 10));
+			_putchar(m + '0');
+			_putchar(l + '0');
+			if (j != 98) {
+			_putchar(','),
+			_putchar(' ');}
+			i++;
+		}
+	}
 }
