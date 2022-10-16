@@ -13,21 +13,14 @@
 
 void print_to_98(int n)
 {
-	int i = 0;
-	int j;
-	int m;
-	int l;
-	int dig = 0;
-	int k;
+	int i = 0, j, m, l, dig = 0, k;
 
-	while( n != 0 ) {
-       n /= 10;
-       dig++;
-    }
+	while( n != 0 ) {n /= 10;
+       dig++;}
 	if (dig <= 2) 
 	{
 		if (n <= 98)
-	{
+		{
 		while (i < (99 - n))
 		{	
 			j = (n + i);
@@ -42,11 +35,12 @@ void print_to_98(int n)
 			_putchar(' ');}
 			i++;
 		}
+		}
 	}
-		else
+	else
 	{
-		while (i < (n - 97))
-		{	
+			while (i < (n - 97))
+			{	
 			j = (n - i);
 			m = (((j) / 10));
 			l = (((j) % 10));
@@ -56,12 +50,12 @@ void print_to_98(int n)
 			_putchar(','),
 			_putchar(' ');}
 			i++;
-		}
+			}
 	}
-		else
-
-		if (n <= 98)
+	else
 	{
+		if (n <= 98)
+		{
 		while (i < (99 - n))
 		{	
 			j = (n + i);
@@ -78,9 +72,9 @@ void print_to_98(int n)
 			_putchar(' ');}
 			i++;
 		}
-	}
+		}
 		else
-	{
+		{
 		while (i < (n - 97))
 		{	
 			j = (n - i);
@@ -93,8 +87,7 @@ void print_to_98(int n)
 			if (j != 98) {
 			_putchar(','),
 			_putchar(' ');}
-
-}
-}
-}
+		}
+		}
+	}
 }
