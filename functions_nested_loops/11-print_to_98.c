@@ -30,7 +30,7 @@ void print_to_98(int n)
 			{
 			_putchar(m + '0');
 			_putchar(l + '0');}
-			if (j != 98) {
+			if (j = 98) {
 			_putchar('z');
 			_putchar(' ');}
 			i++;
