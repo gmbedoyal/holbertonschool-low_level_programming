@@ -22,14 +22,14 @@ void print_to_98(int n)
 		while (i < (99 - n))
 		{	j = (n + i);/*Imprime*/ 
 			k = (((j) / 100)); /*3 cifras, 1 cifra*/
-			o = (((j) / 10) - 10); //3 cifras, 2 cifra 
-			m = (((j) / 10)); // 2 cifras, 1 cifra
-			l = (((j) % 10)); //última cifra
+			o = (((j) / 10) - 10); /*3 cifras, 2 cifra*/ 
+			m = (((j) / 10)); /* 2 cifras, 1 cifra*/
+			l = (((j) % 10)); /*última cifra*/
 			if (m > 0)
 			{
 			_putchar(m + '0');
 			_putchar(l + '0');}
-			if (j != 98) { //no imprimir ultima coma
+			if (j != 98) { /*no imprimir ultima coma*/
 			_putchar(',');
 			_putchar(' ');}
 			i++;
