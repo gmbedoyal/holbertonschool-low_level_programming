@@ -20,23 +20,22 @@ void print_to_98(int n)
 	if (n <= 98)
 		{
 		while (i < (99 - n))
-		{	
-			j = (n + i);
-			k = (((j) / 100));
-			o = (((j) / 10) - 10);
-			m = (((j) / 10));
-			l = (((j) % 10));
+		{	j = (n + i);/*Imprime*/ 
+			k = (((j) / 100)); /*3 cifras, 1 cifra*/
+			o = (((j) / 10) - 10); //3 cifras, 2 cifra 
+			m = (((j) / 10)); // 2 cifras, 1 cifra
+			l = (((j) % 10)); //última cifra
 			if (m > 0)
 			{
 			_putchar(m + '0');
 			_putchar(l + '0');}
-			if (j == 98) {
-			_putchar('z');
+			if (j != 98) { //no imprimir ultima coma
+			_putchar(',');
 			_putchar(' ');}
 			i++;
 		}
 		}
-		else
+	else
 		{
 			while (i < (n - 97))
 			{	
@@ -52,4 +51,4 @@ void print_to_98(int n)
 			i--;
 			}
 		}
-	}
+}
