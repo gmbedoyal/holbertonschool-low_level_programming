@@ -14,11 +14,10 @@
 void print_to_98(int n)
 {
 	int i = 0, j, m, l; 
-	int k;
-	int o;
+	int k = 0;
+	int o = 0;
 
-	{
-		if (n <= 98)
+	if (n <= 98)
 		{
 		while (i < (99 - n))
 		{	
@@ -54,4 +53,3 @@ void print_to_98(int n)
 			}
 		}
 	}
-}
