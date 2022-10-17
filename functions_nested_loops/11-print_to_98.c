@@ -13,9 +13,9 @@
 
 void print_to_98(int n)
 {
-	int i = 0, j, m, l, dig = 0, k;
+	int i = 0, j, m, l, dig = 0, k, h = n;
 
-	while( n != 0 ) {n /= 10;
+	while( h != 0 ) {h /= 10;
        dig++;}
 	if (dig <= 2) 
 	{
