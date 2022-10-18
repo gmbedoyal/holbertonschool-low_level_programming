@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *swap_int - check the code
- *@n: pointer
+ *@a: pointer
+ *@b: pointer
  *Return: check main.c
  */
 
