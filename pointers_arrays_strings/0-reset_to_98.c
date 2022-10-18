@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *Description - reset n to 98
- *
+ *reset_to_98 - definición
  *@n: pointer to 
  */
 
