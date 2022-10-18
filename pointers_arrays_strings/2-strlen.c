@@ -2,6 +2,7 @@
 #include <string.h>
 /**
  *_strelen - check the code
+ *Description - longitud de un string
  *@s: pointer
  *Return: length of strenght
  */
