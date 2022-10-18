@@ -1,8 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- *_strelen - check the code
- *Description - longitud de un string
+ *_strlen - check the code
  *@s: pointer
  *Return: length of strenght
  */
