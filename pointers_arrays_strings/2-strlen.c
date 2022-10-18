@@ -3,8 +3,7 @@
 /**
  *_strelen - check the code
  *@s: pointer
- *@b: pointer
- *Return: check main.c
+ *Return: length of strenght
  */
 
 int _strlen(char *s)
