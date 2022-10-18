@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *print_rev - check the code
- *@str: pointer
+ *@s: pointer
  *Return: length of strenght
  */
 
@@ -18,7 +18,7 @@ void print_rev(char *s)
 
 	j = i - 1;
 	while (s[j] != 0)
-	
+
 	{
 		_putchar(s[j]);
 		j--;
