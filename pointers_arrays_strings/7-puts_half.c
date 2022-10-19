@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_puts - check the code
+ *puts_half - check the code
  *@str: pointer
  *Return: length of strenght
  */
@@ -16,9 +16,9 @@ void puts_half(char *str)
 		i++;
 	}
 
-	while (j < i/2)
+	while (j < i / 2)
 	{
-		_putchar(str[(i/2)+ j]);
+		_putchar(str[(i / 2) + j]);
 		j++;
 	}
 	_putchar('\n');
