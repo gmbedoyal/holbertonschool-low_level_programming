@@ -4,14 +4,15 @@
 
 char *_strcat(char *dest, char *src)
 {
-char *p1 = &*dest;
-char *p2 = &*src; 
+char *p1 = &*src; /*s2=world*/
+char *p2 = &*dest; //s1=hello
 
-char s3 [99] = "0";
-char *p3 = &*s3;
+//char s3 [99] = "0";
+//char *p3 = &*s3;
 
-*p3 = *p1 && *p2;
+*p1 = *p2 && *p1;
 
-return(p3);
+
+return(p1);
 }
 
