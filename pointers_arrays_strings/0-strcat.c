@@ -5,10 +5,7 @@
 char *_strcat(char *dest, char *src)
 {
 char *p1 = &*src; /*s2=world*/
-char *p2 = &*dest; //s1=hello
-
-//char s3 [99] = "0";
-//char *p3 = &*s3;
+char *p2 = &*dest; /*s1=hello*/
 
 *p1 = *p2 && *p1;
 
