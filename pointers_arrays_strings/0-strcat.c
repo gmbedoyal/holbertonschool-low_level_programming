@@ -1,5 +1,8 @@
 #include "main.h"
 /*
+ * _strcat - check code
+ * @dest: destination string
+ * @src: source string
  */
 
 char *_strcat(char *dest, char *src)
@@ -18,6 +21,6 @@ for (j = 0; src[j] != '\0'; i++, j++)
 }
 dest[i] = '\0';
 
-return(dest);
+return (dest);
 }
 
