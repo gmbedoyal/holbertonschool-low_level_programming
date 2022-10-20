@@ -8,19 +8,15 @@
  */
 int main(void)
 {
-    char s1[98] = "";
+    char s1[1] = "";
     char s2[] = "";
-    char *ptr;
+    char *p;
 
     printf("%s\n", s1);
     printf("%s", s2);
-    ptr = _strncat(s1, s2, 10);
+    p = _strncat(s1, s2, 10);
     printf("%s\n", s1);
     printf("%s", s2);
-    printf("%s\n", ptr);
-    ptr = _strncat(s1, s2, 10);
-    printf("%s", s1);
-    printf("%s", s2);
-    printf("%s", ptr);
+    printf("%s\n", p);
     return (0);
 }
