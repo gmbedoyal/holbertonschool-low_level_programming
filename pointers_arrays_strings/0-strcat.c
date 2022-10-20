@@ -3,7 +3,7 @@
  * _strcat - check code
  * @dest: destination string
  * @src: source string
- * return: dest string
+ * Return: dest string
  */
 
 char *_strcat(char *dest, char *src)
