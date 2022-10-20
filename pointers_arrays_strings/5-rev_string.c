@@ -18,7 +18,7 @@ void rev_string(char *s)
 		i++; /*contar longitud string*/
 	}
 
-	for (j = 0; j < (i+1)/2 ; j++)
+	for (j = 0; j < (i + 1) / 2 ; j++)
 	{
 		char *alreves = &s[j]; /*pointer con la direccion de s0*/
 		*alderecho = s[j]; /*asigno s0 al temporal*/
