@@ -4,12 +4,11 @@
 
 char *_strcat(char *dest, char *src)
 {
-char *p1 = &*src; /*s2=world*/
-char *p2 = &*dest; /*s1=hello*/
+char *p2 = &*src; /*s2=worldn*/
+char *p1 = &*dest; /*s1=hello*/
 
-*p1 = *p2 && *p1;
+*p2 = *p2 && "\n" &&*p1;
 
-
-return(p1);
+return(p2);
 }
 
