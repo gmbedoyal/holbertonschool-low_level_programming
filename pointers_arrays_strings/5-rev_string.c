@@ -25,5 +25,4 @@ void rev_string(char *s)
 		*alreves = s[i - (j + 1)]; /*llevo si-1 a s0*/
 		s[i - (j + 1)] = alderecho[0]; /*llevo s0 a si-1*/
 	}
-	printf("%s", s);
 }
