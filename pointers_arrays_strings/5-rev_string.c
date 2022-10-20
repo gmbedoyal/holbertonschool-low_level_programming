@@ -13,16 +13,17 @@ void rev_string(char *s)
 	char *alreves = &s[j]; /*pointer con la direccion de s0*/
 	char temp[1] = "0";/*string temporal*/
 	char *alderecho = &temp[0]; /*pointer a la dirección del string temporal*/
+
 	while (s[i])
 	{
 		i++; /*contar longitud string*/
 	}
 
 	for (j = 0; j < i ; j++)
-		{
-			*alderecho = s[j]; /*asigno s0 al temporal*/
-			*alreves = s[i - (j + 1)]; /*llevo si-1 a s0*/
-			s[i - (j + 1)] = alderecho[0]; /*llevo s0 a si-1*/
-		}
+	{
+		*alderecho = s[j]; /*asigno s0 al temporal*/
+		*alreves = s[i - (j + 1)]; /*llevo si-1 a s0*/
+		s[i - (j + 1)] = alderecho[0]; /*llevo s0 a si-1*/
+	}
 	printf("%s", s);
 }
