@@ -4,11 +4,20 @@
 
 char *_strcat(char *dest, char *src)
 {
-char *p2 = &*src; /*s2=worldn*/
-char *p1 = &*dest; /*s1=hello*/
+int i = 0;
+int j = 0;
 
-*p2 = *p2 && "\n" &&*p1;
+while (dest[i] != '\0')
+{
+	i++;
+}
 
-return(p2);
+for (j = 0; src[j] != '\0'; i++, j++)
+{
+	dest[i] = src[j];
+}
+dest[i] = '\0';
+
+return(dest);
 }
 
