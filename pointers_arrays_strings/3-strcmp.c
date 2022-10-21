@@ -16,6 +16,6 @@ int k = 0;
 		k = k + (s1[i] - s2[i]);
 		i++;
 	}
-return (k);
+return ((int) k);
 }
 
