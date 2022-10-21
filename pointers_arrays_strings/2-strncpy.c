@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncopy - check code
+ * _strncpy - check code
  * @dest: destination string
  * @src: source string
  * @n : integer
@@ -16,15 +16,17 @@ while (dest[i] != '\0')
 	i++;
 }
 
-for (i = 0; i < n && src[i] != '\0'; i++)
+for (i = 0; i < n ; i++)
 {
 	dest[i] = src[i];
 }
 
-/*for (; i < n; i++)
+/*
+for (; i < n; i++)
 {
 	dest[i] = '\0';
-}*/
+}
+*/
 
 return (dest);
 }
