@@ -17,7 +17,7 @@ i = strlen(dest);
 
 if (src[0] != '\0')
 {	
-	for (j = i; j < n ; i++, j++)
+	for (j = i; i < n ; i++, j++)
 	{
 		dest[j] = src[i];
 	}
