@@ -8,12 +8,6 @@
 
 void reverse_array(int *a, int n)
 {
-int * p = a;
-int i = 0;
-
-while (*a)
-	i++;
-
-*p = a[n] - a[i];
+_putchar(a[n]);
 }
 
