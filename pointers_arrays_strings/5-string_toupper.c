@@ -5,18 +5,18 @@
  * Return: no return
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 int i = 0;
 
 while (s[i])
 {
-	if (97 <= s[i]  <= 122)
+	if (97 <= s[i] && s[i] <= 122)
 	{
 		s[i] = s[i] - 32;
 	}
 	i++;
 }
-
+return (s);
 }
 
