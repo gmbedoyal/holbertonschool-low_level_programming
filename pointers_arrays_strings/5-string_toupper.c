@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - check code
- * s: pointer
+ * @s: pointer
  * Return: no return
  */
 
