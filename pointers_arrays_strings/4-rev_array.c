@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * reverse_array - check code
- * @*a: pointer
+ * @a: pointer
  * @n: integer
  * Return: void
 */
@@ -13,8 +13,8 @@ int p;
 
 while (i < ((n) / 2))
 {
-p = a[(n - 1)-i];
-a[(n - 1)-i] = a[i];
+p = a[(n - 1) - i];
+a[(n - 1) - i] = a[i];
 a[i] = p;
 i++;
 }
