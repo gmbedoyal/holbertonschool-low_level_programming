@@ -11,11 +11,12 @@ void reverse_array(int *a, int n)
 int i = 0;
 int p;
 
-while (i < ((n +1) / 2))
+while (i < ((n) / 2))
 {
-p = a[n - i];
-a[n - i] = a[i];
+p = a[(n - 1)-i];
+a[(n - 1)-i] = a[i];
 a[i] = p;
+i++;
 }
 }
 
