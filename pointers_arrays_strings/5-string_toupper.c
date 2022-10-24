@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - check code
- * *: pointer
+ * s: pointer
  * Return: no return
  */
 
@@ -11,7 +11,7 @@ int i = 0;
 
 while (s[i])
 {
-	if (97 <= s[i] && s[i] <= 122)
+	if (s[i] >= 97 && s[i] <= 122)
 	{
 		s[i] = s[i] - 32;
 	}
