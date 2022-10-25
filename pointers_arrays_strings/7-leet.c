@@ -8,19 +8,24 @@
 char *leet(char *s)
 {
 int i = 0;
-/*char[] = "43071"*/
+char crypt[] = "43071";
+char AEOTL[] = "AEOTL";
+char aeotl[] = "aeotl";
+int j;
 
-while (s[i] != '\0')
+for (i = 0; s[i] != '\0'; i++)
 {
-	if ((s[i] == 97	|| s[i] == 65))
+	for (j = 0; AEOTL[j] != '\0' ; j++)
+	{
+		if (s[i] == AEOTL[j])
 			{
-			s[i] = 52;
+			s[i] = crypt[j];
 			}
-	else if ((s[i] == 101 || s[i] == 69))
+		else if (s[i] == aeotl[j])
 			{
-			s[i] = 51;
+			s[i] = crypt[j];
 			}
-	i++;
+	}
 }
 return (s);
 }
