@@ -3,7 +3,7 @@
 /**
   *factorial - a function that returns the factorial of a given number
   *@n: integer
-  *Return: if n is lower than 0, return -1 to indicate an error, otherwise, factorial.
+  *Return: if n > 0, return -1 to indicate an error, otherwise, factorial.
   */
 
 int factorial(int n)
