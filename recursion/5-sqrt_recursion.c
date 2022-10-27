@@ -7,7 +7,7 @@
   *Return: -1 to indicate an error, otherwise, an integer.
   */
 
-int _cuadrado (int n, int m)
+int _cuadrado(int n, int m)
 {
 	if (m * m == n)
 	{
@@ -24,8 +24,7 @@ int _cuadrado (int n, int m)
 
 /**
   *_sqrt_recursion - returns the natural sq root of a number.
-  *@x: integer
-  *@y: integer
+  *@n: integer
   *Return: -1 to indicate an error, otherwise, an integer.
   */
 
