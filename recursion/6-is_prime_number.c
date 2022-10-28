@@ -1,6 +1,6 @@
 #include "main.h"
- /**
-  *_mod_recursion - module of n / (n-1)
+/**
+  *_mod_recursion - divide n by n-1
   *@n: integer
   *@m: integer
   *Return: array of modules
