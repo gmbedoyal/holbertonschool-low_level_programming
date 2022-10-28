@@ -2,7 +2,7 @@
 /**
   *_mod_recursion - divide n by n-1
   *@n: integer
-  *@m: integer
+  *@divisor: integer
   *Return: array of modules
   */
 
