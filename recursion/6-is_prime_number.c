@@ -26,6 +26,7 @@ int a[99];
   *a = (d);
   return(_arrproduct(a, n));
 }
+return(0);
 }
 
 int is_prime_number(int n)
