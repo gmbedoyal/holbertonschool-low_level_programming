@@ -1,40 +1,24 @@
 #include "main.h"
-
-/**
-  *_arrproduct - the product of array elements
-  *@a: array
-  *@n: size of array
-  *Return: 1 if the input integer is a prime number, otherwise 0
-  */
-
-int _arrproduct(int a[], int n)
-{
-if (n <= 0)
-{
-	return (a[0]);
-}
-return (a[n] * _arrproduct(a, n - 1));
-}
-
-/**
+ /**
   *_mod_recursion - module of n / (n-1)
   *@n: integer
   *@m: integer
-  *Return: array of modules
-  */
-int _mod_recursion(int n, int m)
+  *Return: array of modules*/
+  
+int _mod_recursion(int n, int divisor)
 {
-int d;
-int a[9999999];
 
-if (m >= 2)
+if (n == divisor)
 {
-	d = n % m;
-	_mod_recursion(n, m - 1);
-	*a = (d);
-	return (_arrproduct(a, n));
+	return (1);
 }
-return (_arrproduct(a, n));
+if (n % divisor == 0)
+{
+return (0);
+}
+else
+{
+	return (_mod_recursion(n, divisor + 1));
 }
 
 /**
@@ -48,7 +32,7 @@ int m = n;
 
 if (m > 1)
 {
-	return (_mod_recursion(n, m - 1));
+	return (_mod_recursion(n, 2));
 }
 else
 return (0);
