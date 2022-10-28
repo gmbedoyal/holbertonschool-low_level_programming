@@ -3,8 +3,9 @@
   *_mod_recursion - module of n / (n-1)
   *@n: integer
   *@m: integer
-  *Return: array of modules*/
-  
+  *Return: array of modules
+  */
+
 int _mod_recursion(int n, int divisor)
 {
 
