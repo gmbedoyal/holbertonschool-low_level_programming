@@ -16,17 +16,16 @@ return(a[n]*_arrproduct(a, n - 1));
 
 int _mod_recursion(int n, int m)
 {
+int d;
+int a[9999999];
 if (m >= 2)
 {
-int d;
-int a[99];
-
   d = n % m;
   _mod_recursion(n, m - 1);
   *a = (d);
   return(_arrproduct(a, n));
 }
-return(0);
+return(_arrproduct(a,n));
 }
 
 int is_prime_number(int n)
