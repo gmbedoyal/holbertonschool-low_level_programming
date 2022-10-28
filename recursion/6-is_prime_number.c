@@ -9,21 +9,23 @@
 int _arrproduct(int a[], int n)
 {
 if (n <= 0)
-{return(a[0]);}
-return(a[n]*_arrproduct(a, n - 1));
+{
+	return(a[0]);
 }
-
+return(a[n] * _arrproduct(a, n - 1));
+}
 
 int _mod_recursion(int n, int m)
 {
 int d;
 int a[9999999];
+
 if (m >= 2)
 {
-  d = n % m;
-  _mod_recursion(n, m - 1);
-  *a = (d);
-  return(_arrproduct(a, n));
+	d = n % m;
+	_mod_recursion(n, m - 1);
+	*a = (d);
+	return(_arrproduct(a, n));
 }
 return(_arrproduct(a,n));
 }
