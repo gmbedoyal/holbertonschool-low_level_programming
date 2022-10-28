@@ -2,7 +2,7 @@
 
 /**
   *_arrproduct - the product of array elements
-  *a[]: array
+  *@a: array
   *@n: size of array
   *Return: 1 if the input integer is a prime number, otherwise 0
   */
