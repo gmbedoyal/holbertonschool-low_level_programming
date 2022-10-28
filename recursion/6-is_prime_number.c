@@ -19,7 +19,7 @@ int _mod_recursion(int n, int m)
 if (m >= 2)
 {
 int d;
-int a[n];
+int a[99];
 
   d = n % m;
   _mod_recursion(n, m - 1);
