@@ -20,12 +20,14 @@ else
 {
 	return (_mod_recursion(n, divisor + 1));
 }
+}
 
 /**
   *is_prime_number - check the code
   *@n: integer
   *Return: 1 if the input integer is a prime number, otherwise 0
   */
+
 int is_prime_number(int n)
 {
 int m = n;
