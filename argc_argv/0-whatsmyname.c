@@ -4,6 +4,7 @@
   *main - check the code
   *@argc: integer
   *@argv: vector
+  *Return: zero
   */
 
 int main(int argc, char *argv[])
