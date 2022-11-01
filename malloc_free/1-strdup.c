@@ -26,15 +26,15 @@ while (str[i] != '\0')
 
 dup = malloc(sizeof(*str) * i + 1);
 
+if (dup == NULL)
+	return (NULL);
+
 while (j < i)
 {
 dup[j] = str[j];
 j++;
 }
 return (dup);
-
-if (dup == NULL)
-	return (NULL);
 
 free(dup);
 
