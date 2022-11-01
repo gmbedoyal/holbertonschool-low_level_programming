@@ -28,10 +28,13 @@ dup = malloc(sizeof(*str) * i);
 
 while (j < i)
 {
-dup[j] = str [j];
+dup[j] = str[j];
 j++;
 }
 return (dup);
+
+if (dup == NULL)
+	return (NULL);
 
 free(dup);
 
