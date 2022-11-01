@@ -15,18 +15,18 @@ unsigned int i = 0;
 
 if (size == 0)
 {
-	return(NULL);
+	return (NULL);
 }
 
 t = malloc(sizeof(*t) * size);
 
 if (t == NULL)
-	return(NULL);
+	return (NULL);
 
 while (i < size)
 {	t[i] = c;
 	i++;
 }
-return(t);
+return (t);
 
 }
