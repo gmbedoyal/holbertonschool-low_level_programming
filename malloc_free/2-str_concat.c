@@ -30,7 +30,15 @@ while (s2[j] != '\0')
 dup = malloc(sizeof(*s1) * (i + j) + 1);
 
 if (dup == NULL)
+{	
 	return (NULL);
+}
+
+if (s1 == NULL)
+{s1 = "";}
+
+if (s2 == NULL)
+{s2 = "";}
 
 while (k < i)
 {
