@@ -13,6 +13,9 @@ if (size == 0)
 
 t = malloc(sizeof(*t) * size);
 
+if (t == NULL)
+	return (NULL);
+
 while (i < size)
 {	t[i] = c;
 	i++;
