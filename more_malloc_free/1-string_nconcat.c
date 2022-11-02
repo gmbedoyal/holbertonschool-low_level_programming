@@ -37,7 +37,7 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
-str = malloc((j + 1) * sizeof(char));
+str = malloc((j + 1) * sizeof(char ));
 
 if (str == NULL)
 return (NULL);
@@ -51,7 +51,7 @@ for (; k < n ; k++)
 {
 	str[i + k] = s2[k];
 }
-
+str [k] = '\0';
 return (str);
 free(str);
 }
