@@ -2,6 +2,22 @@
 #include <stdlib.h>
 
 /**
+ *_strlen - check the code
+ *@s: pointer
+ *Return: length of strenght
+ */
+
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != 0)
+		i++;
+
+return (i);
+}
+
+/**
   *string_nconcat - concatenates two strings
   *@s1: char
   *@s2: char
