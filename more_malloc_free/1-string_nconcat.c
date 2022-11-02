@@ -44,13 +44,14 @@ return (NULL);
 
 for (; i < j - n ; i++)
 {
-	str[i] = s1 [i];
+	str[i] = s1[i];
 }
 
 for (; k < n ; k++)
 {
-	str[i + k] = s2 [k];
+	str[i + k] = s2[k];
 }
 
-return (str) ;
+return (str);
+free(str);
 }
