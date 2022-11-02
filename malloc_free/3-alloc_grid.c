@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  *alloc_grid - a function that returns a pointer to a 2 dimensional array of integers
+  *alloc_grid - a function that returns a pointer to a 2D array of ints
   *@width: ancho
   *@height: alto
   *Return: NULL on failure
@@ -29,11 +29,11 @@ for (; i < height; i++)
 	{
 		while (i >= 0)
 		{
-			free (gr[i]);
+			free(gr[i]);
 			i--;
 		}
 		free(gr);
-		return(NULL);
+		return (NULL);
 	}
 }
 return (gr);
