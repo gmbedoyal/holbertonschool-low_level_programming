@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
-  *alloc_grid - a function that returns a pointer to a 2D array of ints
-  *@width: ancho
-  *@height: alto
-  *Return: NULL on failure
+  *free_grid - frees a 2 dimensional grid previously created
+  *@grid: 2D array
+  *@height: filas
+  *Return: void, no return
   */
 
 void free_grid(int **grid, int height)
@@ -18,7 +18,6 @@ for (; i < height; i++)
 		while (i >= 0)
 		{
 			free(grid[i]);
-			i--;
 		}
 		free(grid);
 	}
