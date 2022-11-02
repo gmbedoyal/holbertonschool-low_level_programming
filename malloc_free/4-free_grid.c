@@ -14,12 +14,7 @@ int i = 0;
 
 for (; i < height; i++)
 {
-	{
-		while (i >= 0)
-		{
-			free(grid[i]);
-		}
-		free(grid);
-	}
+	free(grid[i]);
 }
+free(grid);
 }
