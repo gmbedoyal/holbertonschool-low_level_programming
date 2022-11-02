@@ -37,7 +37,7 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
-str = malloc((j + 1) * sizeof(str));
+str = malloc((j + 1) * sizeof(char));
 
 if (str == NULL)
 return (NULL);
