@@ -22,12 +22,19 @@ if (gr == NULL)
 	return (NULL);
 }
 
-while (i < height)
+for (; i < height; i++)
 {
 	gr[i] = malloc(sizeof(int) * width);
-		i++;
-if (gr[i] == NULL)
-	return(NULL);
+	if (gr[i] == NULL)
+	{
+		while (i >= 0)
+		{
+			free (gr[i]);
+			i--;
+		}
+		free(gr);
+		return(NULL);
+	}
 }
 return (gr);
 }
