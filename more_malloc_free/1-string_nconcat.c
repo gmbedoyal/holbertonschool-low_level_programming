@@ -39,7 +39,7 @@ if (s2 == NULL)
 
 j = _strlen(s1) + n;
 
-str = malloc((j) * sizeof(char));
+str = malloc((j + 1) * sizeof(char));
 
 if (str == NULL)
 return (NULL);
