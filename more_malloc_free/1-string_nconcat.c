@@ -29,15 +29,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *str = NULL;
 unsigned int i = 0;
-unsigned int j = _strlen(s1) + n;
 unsigned int k = 0;
+unsigned int j = 0;
 
 if (s1 == NULL)
 	s1 = "";
 if (s2 == NULL)
 	s2 = "";
 
-str = malloc((j) * sizeof(str));
+j = _strlen(s1) + n;
+
+str = malloc((j) * sizeof(char));
 
 if (str == NULL)
 return (NULL);
