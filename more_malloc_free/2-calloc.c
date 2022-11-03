@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-  *_calloc: allocates memory for an array, set to zero
+  *_calloc - allocates memory for an array, set to zero
   *@size: data type
   *@nmemb: elements
   *Return: NULL if size 0 or pointer null
