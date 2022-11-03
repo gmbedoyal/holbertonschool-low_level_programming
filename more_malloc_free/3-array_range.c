@@ -15,7 +15,7 @@ int i = 0;
 if (min > max)
 	return (NULL);
 
-sorted = malloc(sizeof(int) * (max - min) + 2);
+sorted = malloc(sizeof(int) * (max - min) + 4);
 
 if (sorted == NULL)
 	return (NULL);
