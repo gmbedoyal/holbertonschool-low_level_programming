@@ -17,7 +17,7 @@ if (min > max)
 
 sorted = malloc(sizeof(int) * (max - min));
 
-for (; i < (max - min) + 1 ; i++)
+for (; i < (max - min) + 1; i++)
 {
 	sorted[i] = min + i;
 }
