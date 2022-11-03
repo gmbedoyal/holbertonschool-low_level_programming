@@ -23,7 +23,7 @@ array = malloc(nmemb * size);
 if (array == NULL)
 	return (NULL);
 
-while (i < nmemb)
+while (i < nmemb * size)
 {	array[i] = 0;
 	i++;
 }
