@@ -10,16 +10,16 @@
 
 int *array_range(int min, int max)
 {
-int* sorted;
+int *sorted;
 int i = 0;
 if (min > max)
 	return (NULL);
 
-sorted = malloc(sizeof(int) * (max - min));
+sorted = malloc(sizeof(int) * (max - min) + 1);
 
-for (; i < (max - min) ; i++)
-{	
+for (; i < (max - min) + 1 ; i++)
+{
 	sorted[i] = min + i;
 }
-return(sorted);
+return (sorted);
 }
