@@ -1,3 +1,8 @@
+/**
+  *main - check code
+  *Return - zero
+  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
