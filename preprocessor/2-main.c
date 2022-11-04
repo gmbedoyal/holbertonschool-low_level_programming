@@ -1,5 +1,6 @@
 /**
   *main - check code
+  *void: void
   *Return - zero
   */
 
