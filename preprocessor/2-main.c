@@ -2,6 +2,7 @@
   *main - check code
   *void: void
   *Return - zero
+  *
   */
 
 #include <stdio.h>
