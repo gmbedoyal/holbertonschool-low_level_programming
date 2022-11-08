@@ -3,7 +3,6 @@
 
 /**
  * init_dog - initialize a variable of type "struc dog"
- * @dog: structure set on task 0
  * @d: pointer to struct
  * @name: name
  * @age: float
