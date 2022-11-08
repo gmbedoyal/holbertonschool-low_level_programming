@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-/*
+/**
  *new_dog - pointer
  *@name: name
  *@age: age
