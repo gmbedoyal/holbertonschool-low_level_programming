@@ -1,7 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-/**
- *dog_t - struct dog
+/*
  *new_dog - pointer
  *@name: name
  *@age: age
