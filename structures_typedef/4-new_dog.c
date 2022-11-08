@@ -52,8 +52,6 @@ free(dup);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *puppy;
-	/*char *nombre;
-	char *dueno;*/
 
 puppy = malloc(sizeof(dog_t));
 
@@ -67,4 +65,6 @@ puppy->age = age;
 puppy->owner = _strdup(owner);
 return (puppy);
 free(puppy);
+free(name);
+free(owner);
 }
