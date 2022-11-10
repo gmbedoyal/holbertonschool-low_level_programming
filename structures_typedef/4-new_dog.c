@@ -25,20 +25,20 @@ while (str[i] != '\0')
 
 dup = malloc(sizeof(*str) * i + 1);
 
-if (dup == NULL)
+if (!dup)
+{
+	free(dup);
 	return (NULL);
+}
 
 while (j < i)
 {
 dup[j] = str[j];
 j++;
 }
+
 return (dup);
-
-free(dup);
-
 }
-
 #include "dog.h"
 #include <stdlib.h>
 /**
@@ -55,16 +55,27 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 puppy = malloc(sizeof(dog_t));
 
-if (puppy == NULL)
+if (!puppy)
 {
+	free(puppy);
 	return (NULL);
 }
-
 puppy->name = _strdup(name);
+if (!puppy->name) 
+{
+free(puppy->name);
+free(puppy);
+return (NULL);
+}
 puppy->age = age;
 puppy->owner = _strdup(owner);
+if (!puppy->owner)
+{
+free(puppy->name);
+free(puppy->owner);
+free(puppy);
+return (NULL);
+}
 return (puppy);
 free(puppy);
-free(name);
-free(owner);
 }
