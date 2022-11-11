@@ -18,7 +18,7 @@ if (!n)
 va_start(pa, n);
 
 for (i = 0; i < n ; i++)
-{	
+{
 	suma += va_arg(pa, const unsigned int);
 }
 
