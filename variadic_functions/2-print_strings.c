@@ -16,13 +16,15 @@ va_start(pa, n);
 
 for (i = 0 ; i < n; i++)
 {
-/*if (va_arg(pa, char*) != NULL)
-	*/	{
+	if (pa != NULL)
+	{
 		if (separator == NULL || i == n - 1)
 		printf("%s", va_arg(pa, char*));
 		else
 		printf("%s%s", va_arg(pa, char*), separator);
-		}
+	}
+	else
+		printf("nil");
 }
 printf("\n");
 va_end(pa);
