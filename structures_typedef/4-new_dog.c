@@ -36,7 +36,6 @@ while (j < i)
 dup[j] = str[j];
 j++;
 }
-
 return (dup);
 }
 #include "dog.h"
@@ -55,7 +54,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 puppy = malloc(sizeof(dog_t));
 
-if (!puppy)
+if (puppy == NULL)
 {
 	free(puppy);
 	return (NULL);
