@@ -4,7 +4,8 @@
 
 /**
  *print_list - a function that prints all the elements of a list_t list.
- *@h - pointer to the head of list
+ *@h: pointer to the head of list
+ *Return: number of nodes in list
  */
 
 size_t print_list(const list_t *h)
@@ -24,5 +25,5 @@ while (h != NULL)
 	h = h->next;
 	i++;
 }
-return(i);
+return (i);
 }
