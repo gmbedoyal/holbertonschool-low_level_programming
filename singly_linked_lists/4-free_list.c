@@ -12,11 +12,10 @@ void free_list(list_t *head)
     list_t *check_node;
     check_node = head;
     
-while (check_node != NULL)
+while (check_node->next != NULL)
 {   
     head = head->next;
     free(check_node);
     check_node = head;
 }
 }
-
