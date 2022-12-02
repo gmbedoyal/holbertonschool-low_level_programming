@@ -15,6 +15,7 @@ while (head != NULL)
 {   
 	check_node = head;
 	head = head->next;
+	free(check_node->str);
 	free(check_node);
 }
 }
