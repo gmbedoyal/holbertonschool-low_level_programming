@@ -15,13 +15,13 @@ list_t *new_node, *end_node;
 
 end_node = malloc(sizeof(list_t));
 
-end_node->str = strdup(str);
-end_node->len = strlen(str);
-
 if (end_node == NULL)
 {
 	return (NULL);
 }
+
+end_node->str = strdup(str);
+end_node->len = strlen(str);
 
 if (*head == NULL)
 	*head = end_node;
