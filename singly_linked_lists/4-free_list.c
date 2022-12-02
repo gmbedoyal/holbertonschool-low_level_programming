@@ -11,11 +11,11 @@ void free_list(list_t *head)
 {
     list_t *check_node;
     check_node = head;
-    
+
 while (check_node->next != NULL)
 {   
-    check_node = head->next;
-    free(head);
-    head = check_node;
+    check_node = head;
+    head = head->next;
+    free(check_node);
 }
 }
