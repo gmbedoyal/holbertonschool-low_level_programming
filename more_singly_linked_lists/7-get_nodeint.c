@@ -16,9 +16,12 @@ if ((head) == NULL)
 	return (0);
 
 temp = head;
-while(i < index)
-	{temp = temp->next;
-	i++;}
-
+while (i < index)
+	{if (temp->next != NULL)
+		temp = temp->next;
+	else
+		return (NULL);
+	i++;
+	}
 return (temp);
 }
