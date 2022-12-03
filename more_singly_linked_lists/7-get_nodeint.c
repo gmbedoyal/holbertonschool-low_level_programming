@@ -17,7 +17,8 @@ if ((head) == NULL)
 
 temp = head;
 while (i < index)
-	{if (temp->next != NULL)
+	{
+	if (temp->next != NULL)
 		temp = temp->next;
 	else
 		return (NULL);
