@@ -11,7 +11,10 @@ void free_listint2(listint_t **head)
 {
 	listint_t *check_node;
 
-while (*head != NULL)
+if (head = NULL)
+	return;
+
+	while (*head != NULL)
 {
 	check_node = (*head);
 	(*head) = (*head)->next;
