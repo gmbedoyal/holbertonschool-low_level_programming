@@ -9,14 +9,18 @@
 
 int pop_listint(listint_t **head)
 {
-	listint_t *check_node;
 
-if (head == NULL)
+int n;
+
+listint_t *check_node;
+
+if ((*head) == NULL)
 	return (0);
 
 check_node = (*head); /*no entiendo pq los paréntesis*/
 (*head) = (*head)->next;
+n = check_node->n;
 free(check_node);
 
-return((*head)->n);
+return (n);
 }
