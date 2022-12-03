@@ -15,8 +15,6 @@ while (head != NULL)
 {
 	check_node = *head;
 	check_node = check_node->next;
-	free(head);
+	free(*head);
 }
-
-head = NULL;
 }
