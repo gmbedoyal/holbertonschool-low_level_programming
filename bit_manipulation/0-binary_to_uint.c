@@ -14,18 +14,18 @@ int index = 0;
 int potencia = 1;
 
 if (!b)
-    return (0);
+	return (0);
 
 index = strlen(b) - 1;
 
 while (index >= 0)
 {
-    if (b[index] != '0' && b[index] != '1')
-        return(0);
-    
-    result += (b[index] - '0') * potencia;
-    potencia *= 2;
-    index--;
+	if (b[index] != '0' && b[index] != '1')
+		return (0);
+
+	result += (b[index] - '0') * potencia;
+	potencia *= 2;
+	index--;
 }
 
 return (result);
