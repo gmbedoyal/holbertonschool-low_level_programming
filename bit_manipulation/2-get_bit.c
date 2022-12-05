@@ -15,7 +15,7 @@ int result = 0;
 result = (n >> index) & 1;
 
 if (index > 20)
-	return(-1);
+	return (-1);
 
-return(result);
+return (result);
 }
