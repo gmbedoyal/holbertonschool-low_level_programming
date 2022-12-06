@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	leer = read(fd, buf, letters);
-	escr = write(STDIN_FILENO, buf, leer);
+	escr = write(STDOUT_FILENO, buf, leer);
 	close(fd);
 	
 	return(escr);
