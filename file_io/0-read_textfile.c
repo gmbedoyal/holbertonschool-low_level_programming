@@ -10,7 +10,7 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char * buf = malloc(letters);
+	char *buf = malloc(letters);
 	int leer, escr, fd;
 
 	fd = open(filename, O_RDONLY);
@@ -21,6 +21,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	leer = read(fd, buf, letters);
 	escr = write(STDOUT_FILENO, buf, leer);
 	close(fd);
-	
-	return(escr);
+
+	return (escr);
 }
