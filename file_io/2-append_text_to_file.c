@@ -11,10 +11,10 @@
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int abrir, escr, text_lenght;
-	
+
 	if (filename == NULL)
 		return (-1);
-	
+
 	abrir = open(filename, O_WRONLY | O_APPEND, S_IRUSR | S_IWUSR);
 
 	if (text_content == NULL)
@@ -26,7 +26,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	text_lenght = strlen(text_content);
 
 	escr = write(abrir, text_content, text_lenght);
-	
+
 	if (escr == -1)
 	{
 		close(abrir);
