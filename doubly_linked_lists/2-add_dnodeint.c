@@ -20,8 +20,8 @@ temp->n = n;
 
 temp->next = *head;
 temp->prev = NULL;
+temp->next->prev = temp;
 *head = temp;
-(*head)->prev = temp;
 
 return (temp);
 }
