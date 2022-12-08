@@ -17,11 +17,12 @@ if (temp == NULL)
 	return (NULL);
 
 temp->n = n;
-
-temp->prev = NULL;
 temp->next = *head;
+temp->prev = NULL;
+if (*head)
+	(*head)->prev = temp;
+	
 *head = temp;
-(*head)->prev = NULL;
 
 return (*head);
 }
