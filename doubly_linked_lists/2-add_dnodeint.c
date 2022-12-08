@@ -19,9 +19,9 @@ if (temp == NULL)
 temp->n = n;
 
 temp->next = *head;
-temp->prev = NULL;
 *head = temp;
 (*head)->prev = temp;
+temp->prev = NULL;
 
 return (temp);
 }
