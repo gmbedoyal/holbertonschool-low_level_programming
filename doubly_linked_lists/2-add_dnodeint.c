@@ -21,7 +21,7 @@ temp->next = *head;
 temp->prev = NULL;
 if (*head)
 	(*head)->prev = temp;
-	
+
 *head = temp;
 
 return (*head);
