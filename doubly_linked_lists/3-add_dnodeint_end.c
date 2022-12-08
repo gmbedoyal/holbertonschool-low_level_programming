@@ -18,20 +18,20 @@ if (new_node == NULL)
 new_node->n = n;
 
 if (*head == NULL)
-	{
-		*head = new_node;
-		new_node->next = NULL;
-		new_node->prev = NULL;
-	}
-	else
-	{
-		temp = *head;
-		while (temp->next != NULL)
-			temp = temp->next;
-		new_node->next = NULL;
-		new_node->prev = temp;
-		temp->next = new_node;
-		new_node = temp;
-	}
+{
+	*head = new_node;
+	new_node->next = NULL;
+	new_node->prev = NULL;
+}
+else
+{
+	temp = *head;
+	while (temp->next != NULL)
+	temp = temp->next;
+	new_node->next = NULL;
+	new_node->prev = temp;
+	temp->next = new_node;
+	new_node = temp;
+}
 return (new_node);
 }
