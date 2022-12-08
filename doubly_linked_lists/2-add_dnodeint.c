@@ -18,6 +18,7 @@ if (temp == NULL)
 
 temp->n = n;
 
+temp->prev = NULL;
 temp->next = *head;
 *head = temp;
 (*head)->prev = NULL;
