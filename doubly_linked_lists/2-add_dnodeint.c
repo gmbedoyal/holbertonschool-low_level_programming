@@ -16,14 +16,12 @@ temp = malloc(sizeof(dlistint_t));
 if (temp == NULL)
 	return (NULL);
 
-/*if (*head == NULL)
-	return(NULL);*/
-
 temp->n = n;
 
 temp->next = *head;
 temp->prev = NULL;
 *head = temp;
+(*head)->prev = temp;
 
-return(temp);
+return (temp);
 }
